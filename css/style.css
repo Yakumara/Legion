@@ -1,0 +1,354 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Caesar Dressing', cursive;
+}
+.clearfix:after {
+	content: '';
+	width: 100%;
+	display: block;
+}
+div {
+	box-sizing: border-box;
+}
+header {
+	background: url(../img/background-first.png) no-repeat center top / cover;
+	height: 245px;
+	font-family: Raleway;
+	font-size: 30px;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.logo {
+	margin-left: 15px;
+	float: left;
+	margin-top: 40px;
+}
+nav {
+	float: right;
+	margin-top: 40px;
+}
+.menu {
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 60px;
+}
+.menu li a {
+	color: #020202;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.geo {
+	margin-top: 80px;
+	margin-left: 50px;
+	float: left;
+}
+.geoinformation {
+	margin-top: 80px;
+	margin-left: 5px;
+	float: left;
+	display: block;
+}
+.phone {
+	margin-top: 80px;
+	float: left;
+	margin-left: 40px;
+	display: block;
+}
+.phonetext {
+	margin-top: 80px;
+	float: left;
+	margin-left: 5px;
+	font-size: 29px;
+}
+.button:hover{
+	background: #FF0000;
+	color: #fff;
+	border-radius: 8px;
+	box-shadow: 0px 0px 0px 3px #FF3328;
+}
+#name{
+	height: 750px;
+	width: 100%;
+	background: url(../img/bg222.png) no-repeat center, black;
+	border: solid 1px;
+}
+.title{
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 150px;
+	margin: 0;
+	padding: 0;
+	margin-top: 200px;
+}
+.title_two{
+	font-size: 60px;
+	font-family: Raleway;
+	margin-top: 20px;
+}
+.button_two{
+	background: #FF0000;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-family: Raleway;
+	font-size: 42px;
+	float: left;
+	padding: 10px;
+	border-radius: 15px;
+	margin-top: 130px;
+	margin-left: 280px;
+}
+.button_two:hover {
+	box-shadow: 0px 0px 0px 5px #FF3328;
+}
+#About{
+	background: url(../img/background-two.jpg) center top;
+	height: 1000px;
+	width: 100%;
+	border: solid 1px #DCDCDE;
+}
+.About{
+	color: black;
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: Raleway;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.table_one{
+	border: 1px;
+	font-family: Raleway;
+	font-size: 30px;
+	color: black;
+	float: left;
+	width: 100%;
+}
+#Section{
+	background: url(../img/background-three.png) no-repeat center top, #000;
+	width: 100%;
+	height: 1000px;
+	border: solid black 1px;
+	color: #fff;
+	font-family: Raleway;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+.Section {
+	font-size: 60px;
+	text-align: center;
+	display: block;
+}
+.Section_img{
+	display: inline-block;
+}
+.muay_thai{
+	max-width: 250px;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+}
+.greppling{
+	max-width: 250px;
+	text-align: center;
+	font-size: 30px;
+	float: left;
+	margin-left: 210px;
+}
+.sambo{
+	max-width: 250px;
+	text-align: center;
+	font-size: 30px;
+	float: right;
+}
+.MMA{
+	max-width: 250px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 30px;
+}
+.crossfit{
+	max-width: 250px;
+	float: right;
+	margin-right: 250px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 30px;
+}
+#Trainer{
+	width: 100%;
+	height: 1000px;
+	background: #fff;
+	color: #000;
+	font-family: Raleway;
+	margin: 0;
+	padding: 0;
+	border: solid 1px #fff;
+}
+.Trainer{
+	font-size: 60px;
+	font-family: Raleway;
+	text-align: center;
+	text-transform: uppercase;
+}
+.Trainer_img{
+	display: inline-block;
+}
+.Trainer_img a{
+	font-size: 50px;
+	font-family: Raleway;
+	color: #FFF;
+	text-decoration: none;
+}
+.Trainer_img p{
+	margin-top: 60px;
+	background: grey;
+	width: 500px;
+	border-radius: 15px;
+	text-align: center;
+	padding: 15px;
+	box-shadow: inset -5px -5px 1px 1px #000;
+}
+.Trainer_img p:hover{
+	background: red;
+}
+.RIM{
+	max-width: 500px;
+	float: left;
+	text-align: center;
+}
+.gasan{
+	max-width: 500px;
+	float: right;
+	text-align: center;
+	margin-left: 150px;
+}
+#Price{
+	width: 100%;
+	height: 1000px;
+	background: #000;
+	color: #fff;
+	font-family: Raleway;
+	margin: 0;
+	padding: 0;
+	border: solid 1px #000;
+}
+.Price{
+	font-size: 60px;
+	font-family: Raleway;
+	text-align: center;
+	text-transform: uppercase;
+}
+.table_two{
+	border: solid 0.5px #fff;
+	width: 100%;
+	color: #fff;
+	font-family: Raleway;
+	font-size: 30px;
+	text-align: center;
+	border-spacing: 0;
+	background: black;
+}
+.table_two td{
+	height: 50px;
+	border-color: black;
+	width: 300px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px 0 0 1px;
+}
+.table_two tr{
+	border-style: solid;
+	border-color: white;
+	border-width: 0 1px 1px 0;
+}
+.td{
+	text-align: left;
+	background: red;
+}
+footer{
+	width: 100%;
+	height: 700px;
+	background: #fff;
+	color: #000;
+	font-family: Raleway;
+	margin: 0;
+	padding: 0;
+	border: solid 1px #fff;
+}
+.contact{
+	font-size: 60px;
+	font-family: Raleway;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+}
+.adress{
+	float: left;
+	font-family: Raleway;
+	font-size: 30px;
+	color: #000;
+	margin: 0 auto;
+	display: block;
+}
+.maps{
+	float: right;
+	margin-left: 670px;
+	display: block;
+	padding: 0;
+}
+.social-block{
+	width: 250px;
+}
+.clearfix:after {
+	content: '';
+	width: 100%;
+	display: block;
+}
+.social{
+	border-radius: 50%;
+	width: 56px;
+	height: 56px;
+	background: grey;
+	float: left;
+	text-align: center;
+	margin-right: 11px;
+	text-decoration: none;
+}
+.social:nth-child(3) {
+	margin-right: 0px;
+}
+.social:hover{
+	background: red;
+	box-shadow: 0px 0px 0px 6px #8d333a;
+}
+.social>i{
+	color: #fff;
+	margin-top: 12px;
+}
+.table_three td{
+	padding: 50px;
+}
+.end{
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	font-family: Caesar Dressing;
+}
